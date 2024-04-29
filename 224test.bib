@@ -308,3 +308,81 @@
   note        = {2024},
   keywords    = {programming}
 }
+
+@MISC{temporaryCitekey-favbo,
+  title       = {Root-to-Leaf Scheduling in Write-Optimized Trees},
+  author      = {Chung, Christopher and Jannen, William and McCauley, Samuel and
+                 Simon, Bertrand},
+  date        = {2024-04-26},
+  eprintclass = {cs.DS},
+  abstract    = {Write-optimized dictionaries are a class of cache-efficient
+                 data structures that buffer updates and apply them in batches
+                 to optimize the amortized cache misses per update. For example,
+                 a B\textasciicircumepsilon tree inserts updates as messages at
+                 the root. B\textasciicircumepsilon trees only move ("flush")
+                 messages when they have total size close to a cache line,
+                 optimizing the amount of work done per cache line written.
+                 Thus, recently-inserted messages reside at or near the root and
+                 are only flushed down the tree after a sufficient number of new
+                 messages arrive. Although this lazy approach works well for
+                 many operations, some types of updates do not complete until
+                 the update message reaches a leaf. For example, deferred
+                 queries and secure deletes must flush through all nodes along
+                 their root-to-leaf path before taking effect. What happens when
+                 we want to service a large number of (say) secure deletes as
+                 quickly as possible? Classic techniques leave us with an
+                 unsavory choice. On the one hand, we can group the delete
+                 messages using a write-optimized approach and move them down
+                 the tree lazily. But then many individual deletes may be left
+                 incomplete for an extended period of time, as their messages
+                 wait to be grouped with a sufficiently large number of related
+                 messages. On the other hand, we can ignore cache efficiency and
+                 perform a root-to-leaf flush for each delete. This begins work
+                 on individual deletes immediately, but harms system throughput.
+                 This paper investigates a new framework for efficiently
+                 flushing collections of messages from the root to their leaves
+                 in a write-optimized data structure. Our goal is to minimize
+                 the average time that messages reach the leaves. We give an
+                 algorithm that O(1)-approximates the optimal average completion
+                 time in this model. Along the way, we give a new
+                 4-approximation algorithm for scheduling parallel tasks for
+                 weighted completion time with tree precedence constraints.},
+  urldate     = {2024-04-29},
+  note        = {2024},
+  keywords    = {programming}
+}
+
+@MISC{temporaryCitekey-nbeqe,
+  title       = {Probabilistic Inference in Language Models via Twisted
+                 Sequential Monte Carlo},
+  author      = {Zhao, Stephen and Brekelmans, Rob and Makhzani, Alireza and
+                 Grosse, Roger},
+  date        = {2024-04-26},
+  eprintclass = {cs.LG},
+  abstract    = {Numerous capability and safety techniques of Large Language
+                 Models (LLMs), including RLHF, automated red-teaming, prompt
+                 engineering, and infilling, can be cast as sampling from an
+                 unnormalized target distribution defined by a given reward or
+                 potential function over the full sequence. In this work, we
+                 leverage the rich toolkit of Sequential Monte Carlo (SMC) for
+                 these probabilistic inference problems. In particular, we use
+                 learned twist functions to estimate the expected future value
+                 of the potential at each timestep, which enables us to focus
+                 inference-time computation on promising partial sequences. We
+                 propose a novel contrastive method for learning the twist
+                 functions, and establish connections with the rich literature
+                 of soft reinforcement learning. As a complementary application
+                 of our twisted SMC framework, we present methods for evaluating
+                 the accuracy of language model inference techniques using novel
+                 bidirectional SMC bounds on the log partition function. These
+                 bounds can be used to estimate the KL divergence between the
+                 inference and target distributions in both directions. We apply
+                 our inference evaluation techniques to show that twisted SMC is
+                 effective for sampling undesirable outputs from a pretrained
+                 model (a useful component of harmlessness training and
+                 automated red-teaming), generating reviews with varied
+                 sentiment, and performing infilling tasks.},
+  urldate     = {2024-04-29},
+  note        = {2024},
+  keywords    = {programming}
+}
