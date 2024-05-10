@@ -16,79 +16,6 @@
   language     = {en}
 }
 
-@ARTICLE{Nelson2017,
-  title        = {Potential benefits of eicosapentaenoic acid on atherosclerotic
-                  plaques},
-  author       = {Nelson, J R and Wani, O and May, H T and Budoff, M},
-  journaltitle = {Vascul. Pharmacol.},
-  publisher    = {Vascul Pharmacol},
-  volume       = {91},
-  pages        = {1--9},
-  date         = {2017-04},
-  abstract     = {Residual cardiovascular (CV) risk remains in some patients
-                  despite optimized statin therapy and may necessitate add-on
-                  therapy to reduce this risk. Eicosapentaenoic acid (EPA), an
-                  omega-3 polyunsaturated fatty acid, lowers plasma triglyceride
-                  levels without raising low-density lipoprotein cholesterol
-                  levels and has potential beneficial effects on atherosclerotic
-                  plaques. Animal studies have shown that EPA reduces levels of
-                  pro-inflammatory cytokines and chemokines. In clinical trials
-                  utilizing a wide spectrum of plaque imaging modalities, EPA
-                  has shown beneficial effects on plaque characteristics.
-                  Studies of patients with coronary artery disease receiving
-                  statin therapy suggest that EPA may decrease plaque
-                  vulnerability and prevent plaque progression. EPA also
-                  decreased pentraxin-3 and macrophage accumulation. A large,
-                  randomized, Japanese study reported that EPA plus a statin
-                  resulted in a 19\% relative reduction in major coronary events
-                  at 5years versus a statin alone in patients with
-                  hypercholesterolemia (P=0.011). Icosapent ethyl, a high-purity
-                  prescription form of EPA ethyl ester, has been shown to reduce
-                  triglyceride levels and markers of atherosclerotic
-                  inflammation. Results of an ongoing CV outcomes study will
-                  further define the potential clinical benefits of icosapent
-                  ethyl in reducing CV risk in high-risk patients receiving
-                  statin therapy.},
-  urldate      = {2024-04-29},
-  keywords     = {Atherosclerosis; Atherosclerotic plaque; Eicosapentaenoic
-                  acid; Eicosapentaenoic acid ethyl ester; Omega-3 fatty
-                  acids;programming},
-  language     = {en}
-}
-
-@MISC{Zhang2024,
-  title       = {{MaPa}: Text-driven Photorealistic Material Painting for {3D}
-                 Shapes},
-  author      = {Zhang, Shangzhan and Peng, Sida and Xu, Tao and Yang, Yuanbo
-                 and Chen, Tianrun and Xue, Nan and Shen, Yujun and Bao, Hujun
-                 and Hu, Ruizhen and Zhou, Xiaowei},
-  date        = {2024-04-26},
-  eprintclass = {cs.CV},
-  abstract    = {This paper aims to generate materials for 3D meshes from text
-                 descriptions. Unlike existing methods that synthesize texture
-                 maps, we propose to generate segment-wise procedural material
-                 graphs as the appearance representation, which supports
-                 high-quality rendering and provides substantial flexibility in
-                 editing. Instead of relying on extensive paired data, i.e., 3D
-                 meshes with material graphs and corresponding text
-                 descriptions, to train a material graph generative model, we
-                 propose to leverage the pre-trained 2D diffusion model as a
-                 bridge to connect the text and material graphs. Specifically,
-                 our approach decomposes a shape into a set of segments and
-                 designs a segment-controlled diffusion model to synthesize 2D
-                 images that are aligned with mesh parts. Based on generated
-                 images, we initialize parameters of material graphs and
-                 fine-tune them through the differentiable rendering module to
-                 produce materials in accordance with the textual description.
-                 Extensive experiments demonstrate the superior performance of
-                 our framework in photorealism, resolution, and editability over
-                 existing methods. Project page:
-                 https://zhanghe3z.github.io/MaPa/},
-  urldate     = {2024-04-29},
-  note        = {2024},
-  keywords    = {programming}
-}
-
 @MISC{Noman2024,
   title       = {{ChangeBind}: A Hybrid Change Encoder for Remote Sensing Change
                  Detection},
@@ -138,31 +65,6 @@
                  simple model captures, using a single fit parameter, the
                  sigmoidal emergence of multiple new skills as training time,
                  data size or model size increases in the neural network.},
-  urldate     = {2024-04-29},
-  note        = {2024},
-  keywords    = {programming}
-}
-
-@MISC{Heinrich2024,
-  title       = {{CoCar} {NextGen}: a Multi-Purpose Platform for Connected
-                 Autonomous Driving Research},
-  author      = {Heinrich, Marc and Zipfl, Maximilian and Uecker, Marc and Ochs,
-                 Sven and Gontscharow, Martin and Fleck, Tobias and Doll, Jens
-                 and Schörner, Philip and Hubschneider, Christian and Zofka,
-                 Marc René and Viehl, Alexander and Zöllner, J Marius},
-  date        = {2024-04-26},
-  eprintclass = {cs.RO},
-  abstract    = {Real world testing is of vital importance to the success of
-                 automated driving. While many players in the business design
-                 purpose build testing vehicles, we designed and build a modular
-                 platform that offers high flexibility for any kind of scenario.
-                 CoCar NextGen is equipped with next generation hardware that
-                 addresses all future use cases. Its extensive, redundant sensor
-                 setup allows to develop cross-domain data driven approaches
-                 that manage the transfer to other sensor setups. Together with
-                 the possibility of being deployed on public roads, this creates
-                 a unique research platform that supports the road to automated
-                 driving on SAE Level 5.},
   urldate     = {2024-04-29},
   note        = {2024},
   keywords    = {programming}
@@ -242,74 +144,6 @@
   keywords    = {programming}
 }
 
-@MISC{Zhao2024,
-  title       = {Probabilistic Inference in Language Models via Twisted
-                 Sequential Monte Carlo},
-  author      = {Zhao, Stephen and Brekelmans, Rob and Makhzani, Alireza and
-                 Grosse, Roger},
-  date        = {2024-04-26},
-  eprintclass = {cs.LG},
-  abstract    = {Numerous capability and safety techniques of Large Language
-                 Models (LLMs), including RLHF, automated red-teaming, prompt
-                 engineering, and infilling, can be cast as sampling from an
-                 unnormalized target distribution defined by a given reward or
-                 potential function over the full sequence. In this work, we
-                 leverage the rich toolkit of Sequential Monte Carlo (SMC) for
-                 these probabilistic inference problems. In particular, we use
-                 learned twist functions to estimate the expected future value
-                 of the potential at each timestep, which enables us to focus
-                 inference-time computation on promising partial sequences. We
-                 propose a novel contrastive method for learning the twist
-                 functions, and establish connections with the rich literature
-                 of soft reinforcement learning. As a complementary application
-                 of our twisted SMC framework, we present methods for evaluating
-                 the accuracy of language model inference techniques using novel
-                 bidirectional SMC bounds on the log partition function. These
-                 bounds can be used to estimate the KL divergence between the
-                 inference and target distributions in both directions. We apply
-                 our inference evaluation techniques to show that twisted SMC is
-                 effective for sampling undesirable outputs from a pretrained
-                 model (a useful component of harmlessness training and
-                 automated red-teaming), generating reviews with varied
-                 sentiment, and performing infilling tasks.},
-  urldate     = {2024-04-29},
-  note        = {2024},
-  keywords    = {programming;jjk;papers;biology}
-}
-
-@ARTICLE{Jesus2015,
-  title        = {Academic progress depending on the skills and qualities of
-                  learning in students of a business school},
-  author       = {Jesús., Araiza María de and Claudia, D and Rosalinda, Castillo
-                  Corpus},
-  journaltitle = {Turkish Online Journal of Educational Technology},
-  publisher    = {Sakarya University. Esentepe Campus, Adapazari 54000, Turkey.
-                  Tel: +90-505-2431868; Fax: +90-264-6141034; e-mail:
-                  tojet@sakarya.edu.tr; Web site: http://www.tojet.net},
-  volume       = {14},
-  issue        = {3},
-  pages        = {1--8},
-  date         = {2015-07-01},
-  abstract     = {This research was to establish the relationship between
-                  qualities of learning; learning skills and academic
-                  performance in undergraduate students. 310 undergraduates
-                  participated in this research of which 72\% are female and
-                  28\% male. All responded Scale Learning Strategies of Roman
-                  and Gallego (1994) and Questionnaire Learning Styles of
-                  Honey-Alonso (Alonso, Gallego and Honey, 1995), and the
-                  management system learning was used to establish the academic
-                  performance, from the accumulated average of each participant.
-                  The results indicate that there is no single way of preferred
-                  learning, as most participants rated high in two or more
-                  attributes. As for learning skills it was identified that
-                  42.6\% use coding strategies. In addition, no significant
-                  correlation between the variables analyzed was found. This
-                  information demonstrates it is necessary to teach techniques
-                  of study to the students, since it seems to be the best route
-                  to certify that his learning is the most successful.},
-  keywords     = {programming}
-}
-
 @ARTICLE{Pandey2023-01,
   title        = {Primary retroperitoneal squamous cell carcinoma: a literature
                   review},
@@ -345,38 +179,6 @@
                   option. Multicentre trials should be conducted for
                   establishing definitive treatment strategies for this ailment.},
   keywords     = {Retroperitoneal tumors; Squamous cell carcinoma;programming},
-  language     = {en}
-}
-
-@ARTICLE{Wen2022-01,
-  title        = {Recent advances in esophageal squamous cell precancerous
-                  conditions: A review},
-  author       = {Wen, Tianjiao and Wang, Wei and Chen, Xinran},
-  journaltitle = {Medicine (Baltimore)},
-  publisher    = {Ovid Technologies (Wolters Kluwer Health)},
-  volume       = {101},
-  issue        = {50},
-  pages        = {e32192},
-  date         = {2022-12-16},
-  abstract     = {Esophageal squamous cell carcinoma (ESCC) is a common cancer
-                  in many developing countries in Asia and Africa, with a 5-year
-                  survival rate of approximately 20\%. Most cases are diagnosed
-                  at an advanced age when there is no effective treatment
-                  strategy. Esophageal precancerous conditions have a much
-                  better prognosis, with a 5-year survival rate of over 90\% by
-                  endoscopic diagnosis and treatment. Nevertheless, limitations,
-                  contraindications, and lymph node metastasis incompetency of
-                  endoscopy. Thus, the diagnosis and treatment of esophageal
-                  precancerous lesions remain a significant challenge. Biomarker
-                  investigations provide opportunities for target detection and
-                  therapy. Additionally, drug development is ongoing. Changes in
-                  lifestyle habits, such as diet balance, smoking and alcohol
-                  cessation, are beneficial for the prognosis of esophageal
-                  precancerous lesions. Collectively, multiple and sequential
-                  diagnoses and treatments are essential for curing esophageal
-                  precancerous lesions and reducing the incidence and mortality
-                  of ESCC.},
-  keywords     = {programming},
   language     = {en}
 }
 
