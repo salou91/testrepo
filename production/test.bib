@@ -1,82 +1,3 @@
-@MISC{Kato-Sasa-uf,
-  title    = "{Direct bias-correction term estimation for propensity scores and
-              average treatment effect estimation}",
-  author   = "Kato, Masahiro",
-  abstract = "This study considers the estimation of the average treatment
-              effect (ATE). For ATE estimation, we estimate the propensity score
-              through direct bias-correction term estimation. Let $\{(X_i, D_i,
-              Y_i)\}_{i=1}^{n}$ be the observations, where $X_i \in
-              \mathbb{R}^p$ denotes $p$-dimensional covariates, $D_i \in \{0,
-              1\}$ denotes a binary treatment assignment indicator, and $Y_i \in
-              \mathbb{R}$ is an outcome. In ATE estimation, the bias-correction
-              term $h_0(X_i, D_i) = \frac{1[D_i = 1]}{e_0(X_i)} - \frac{1[D_i =
-              0]}{1 - e_0(X_i)}$ plays an important role, where $e_0(X_i)$ is
-              the propensity score, the probability of being assigned treatment
-              $1$. In this study, we propose estimating $h_0$ (or equivalently
-              the propensity score $e_0$) by directly minimizing the prediction
-              error of $h_0$. Since the bias-correction term $h_0$ is essential
-              for ATE estimation, this direct approach is expected to improve
-              estimation accuracy for the ATE. For example, existing studies
-              often employ maximum likelihood or covariate balancing to estimate
-              $e_0$, but these approaches may not be optimal for accurately
-              estimating $h_0$ or the ATE. We present a general framework for
-              this direct bias-correction term estimation approach from the
-              perspective of Bregman divergence minimization and conduct
-              simulation studies to evaluate the effectiveness of the proposed
-              method.",
-  year     =  2025
-}
-
-@MISC{Shinde-Sasa-hu,
-  title    = "{Optimizing normal tissue sparing via spatiotemporal optimization
-              under equivalent tumor-radical efficacy}",
-  author   = "Shinde, Nimita and Li, Wangyao and Chen, Ronald C and Gao, Hao",
-  abstract = "Objective: Spatiotemporal optimization in radiation therapy
-              involves determining the optimal number of dose delivery fractions
-              (temporal) and the optimal dose per fraction (spatial).
-              Traditional approaches focus on maximizing the biologically
-              effective dose (BED) to the target while constraining BED to
-              organs-at-risk (OAR), which may lead to insufficient BED for
-              complete tumor cell kill. This work proposes a formulation that
-              ensures adequate BED delivery to the target while minimizing BED
-              to the OAR. Approach: A spatiotemporal optimization model is
-              developed that incorporates an inequality constraint to guarantee
-              sufficient BED for tumor cell kill while minimizing BED to the
-              OAR. The model accounts for tumor proliferation dynamics,
-              including lag time (delay before proliferation begins) and
-              doubling time (time for tumor volume to double), to optimize dose
-              fractionation. Results: The performance of our formulation is
-              evaluated for varying lag and doubling times. The results show
-              that mean BED to the target consistently meets the minimum
-              requirement for tumor cell kill. Additionally, the mean BED to OAR
-              varies based on tumor proliferation dynamics. In the prostate case
-              with lag time of 7 days and doubling time of 2 days, it is
-              observed that mean BED delivered to femoral head is lowest at
-              around 20 fractions, making this an optimal choice. While in the
-              head-and-neck case, mean BED to OAR decreases as the number of
-              fractions increases, suggesting that a higher number of fractions
-              is optimal. Significance: A spatiotemporal optimization model is
-              presented that minimizes BED to the OAR while ensuring sufficient
-              BED for tumor cell kill. By incorporating tumor lag and doubling
-              time, the approach identifies optimal number of fractions. This
-              model can be extended to support hyperfractionation or accelerated
-              fractionation strategies, offering a versatile tool for clinical
-              treatment planning.",
-  year     =  2025
-}
-
-@ARTICLE{Sasaki-Sasa-ff,
-  title     = "{Correction: Sasaki et al. Automatic determination of the center
-               of macular hole using optical coherence tomography en face
-               images. J. clin. Med. 2022, 11, 3167}",
-  author    = "Sasaki, Takanori and Shoji, Takuhei and Kanno, Junji and Ishii,
-               Hirokazu and Yoshikawa, Yuji and Ibuki, Hisashi and Shinoda, Kei",
-  journal   = "Journal of clinical medicine",
-  publisher = "MDPI AG",
-  abstract  = "There was an error in the original publication [...].",
-  year      =  2023
-}
-
 @ARTICLE{Islam-Sasa-nr,
   title     = "{Uncovering novel mutational signatures by de novo extraction
                with SigProfilerExtractor}",
@@ -348,4 +269,83 @@
                sufficient catalytic potential to function as an enzyme in
                biological systems.",
   year      =  1999
+}
+
+@MISC{Kato-Sasa-uf,
+  title    = "{Direct bias-correction term estimation for propensity scores and
+              average treatment effect estimation}",
+  author   = "Kato, Masahiro",
+  abstract = "This study considers the estimation of the average treatment
+              effect (ATE). For ATE estimation, we estimate the propensity score
+              through direct bias-correction term estimation. Let $\{(X_i, D_i,
+              Y_i)\}_{i=1}^{n}$ be the observations, where $X_i \in
+              \mathbb{R}^p$ denotes $p$-dimensional covariates, $D_i \in \{0,
+              1\}$ denotes a binary treatment assignment indicator, and $Y_i \in
+              \mathbb{R}$ is an outcome. In ATE estimation, the bias-correction
+              term $h_0(X_i, D_i) = \frac{1[D_i = 1]}{e_0(X_i)} - \frac{1[D_i =
+              0]}{1 - e_0(X_i)}$ plays an important role, where $e_0(X_i)$ is
+              the propensity score, the probability of being assigned treatment
+              $1$. In this study, we propose estimating $h_0$ (or equivalently
+              the propensity score $e_0$) by directly minimizing the prediction
+              error of $h_0$. Since the bias-correction term $h_0$ is essential
+              for ATE estimation, this direct approach is expected to improve
+              estimation accuracy for the ATE. For example, existing studies
+              often employ maximum likelihood or covariate balancing to estimate
+              $e_0$, but these approaches may not be optimal for accurately
+              estimating $h_0$ or the ATE. We present a general framework for
+              this direct bias-correction term estimation approach from the
+              perspective of Bregman divergence minimization and conduct
+              simulation studies to evaluate the effectiveness of the proposed
+              method.",
+  year     =  2025
+}
+
+@MISC{Shinde-Sasa-hu,
+  title    = "{Optimizing normal tissue sparing via spatiotemporal optimization
+              under equivalent tumor-radical efficacy}",
+  author   = "Shinde, Nimita and Li, Wangyao and Chen, Ronald C and Gao, Hao",
+  abstract = "Objective: Spatiotemporal optimization in radiation therapy
+              involves determining the optimal number of dose delivery fractions
+              (temporal) and the optimal dose per fraction (spatial).
+              Traditional approaches focus on maximizing the biologically
+              effective dose (BED) to the target while constraining BED to
+              organs-at-risk (OAR), which may lead to insufficient BED for
+              complete tumor cell kill. This work proposes a formulation that
+              ensures adequate BED delivery to the target while minimizing BED
+              to the OAR. Approach: A spatiotemporal optimization model is
+              developed that incorporates an inequality constraint to guarantee
+              sufficient BED for tumor cell kill while minimizing BED to the
+              OAR. The model accounts for tumor proliferation dynamics,
+              including lag time (delay before proliferation begins) and
+              doubling time (time for tumor volume to double), to optimize dose
+              fractionation. Results: The performance of our formulation is
+              evaluated for varying lag and doubling times. The results show
+              that mean BED to the target consistently meets the minimum
+              requirement for tumor cell kill. Additionally, the mean BED to OAR
+              varies based on tumor proliferation dynamics. In the prostate case
+              with lag time of 7 days and doubling time of 2 days, it is
+              observed that mean BED delivered to femoral head is lowest at
+              around 20 fractions, making this an optimal choice. While in the
+              head-and-neck case, mean BED to OAR decreases as the number of
+              fractions increases, suggesting that a higher number of fractions
+              is optimal. Significance: A spatiotemporal optimization model is
+              presented that minimizes BED to the OAR while ensuring sufficient
+              BED for tumor cell kill. By incorporating tumor lag and doubling
+              time, the approach identifies optimal number of fractions. This
+              model can be extended to support hyperfractionation or accelerated
+              fractionation strategies, offering a versatile tool for clinical
+              treatment planning.",
+  year     =  2025
+}
+
+@ARTICLE{Sasaki-Sasa-ff,
+  title     = "{Correction: Sasaki et al. Automatic determination of the center
+               of macular hole using optical coherence tomography en face
+               images. J. clin. Med. 2022, 11, 3167}",
+  author    = "Sasaki, Takanori and Shoji, Takuhei and Kanno, Junji and Ishii,
+               Hirokazu and Yoshikawa, Yuji and Ibuki, Hisashi and Shinoda, Kei",
+  journal   = "Journal of clinical medicine",
+  publisher = "MDPI AG",
+  abstract  = "There was an error in the original publication [...].",
+  year      =  2023
 }
